@@ -4,7 +4,8 @@
   "description": "It's a personal dashboard",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start:dev": "webpack-dev-server --mode development --open --hot"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/rahulrana95/personal_dashboard#readme",
   "dependencies": {
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
     "html-webpack-plugin": "^3.2.0",
     "path": "^0.12.7",
     "uglifyjs-webpack-plugin": "^2.0.1",
@@ -24,12 +27,26 @@
     "webpack-bundle-analyzer": "^3.0.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^5.10.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "webpack-cli": "^3.1.2"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "redux-thunk": "^2.3.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }
