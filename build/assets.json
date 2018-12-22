@@ -1,0 +1,21 @@
+{
+  "main": {
+    "js": "/main.bundle.js"
+  },
+  "vendors": {
+    "js": "/vendors.bundle.js"
+  },
+  "": {
+    "html": "/index.html",
+    "br": [
+      "/main.bundle.js.br",
+      "/main.fb87469d16434a7f6775.hot-update.js.br",
+      "/vendors.bundle.js.br",
+      "/vendors.fb87469d16434a7f6775.hot-update.js.br"
+    ],
+    "json": [
+      "/ae94eee0db903dd33b19.hot-update.json",
+      "/fb87469d16434a7f6775.hot-update.json"
+    ]
+  }
+}

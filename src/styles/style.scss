@@ -1,0 +1,9 @@
+body {
+  background-color: green;
+}
+
+.name {
+  &__hi {
+    color: red;
+  }
+}
