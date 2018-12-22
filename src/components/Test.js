@@ -1,8 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { DatePicker } from "antd";
 
 const Test = () => {
-  return <div>Hello Reactsst!</div>;
+  return (
+    <div class="name__hi">
+      Hello Reactsst!
+      <DatePicker />
+    </div>
+  );
 };
 
 export default Test;
