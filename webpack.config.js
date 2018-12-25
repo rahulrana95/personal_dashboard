@@ -4,6 +4,9 @@ var AssetsPlugin = require("assets-webpack-plugin");
 var BrotliPlugin = require("brotli-webpack-plugin");
 var BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
   .BundleAnalyzerPlugin;
+
+var babelPollyfill = require("@babel/polyfill");
+
 var path = require("path");
 
 const devConfig = {
@@ -32,7 +35,7 @@ const prodPlugins = [
 ];
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: ["@babel/polyfill", "./src/index.js"],
   ...devConfig,
   optimization: {
     usedExports: true,
@@ -55,6 +58,7 @@ module.exports = {
     alias: {
       components: path.resolve(__dirname, "src/components/"),
       services: path.resolve(__dirname, "src/services/"),
+      constants: path.resolve(__dirname, "src/constants/"),
       utils: path.resolve(__dirname, "src/utils/"),
       styleComponents: path.resolve(__dirname, "src/styles/components/"),
       widgetsStyle: path.resolve(__dirname, "src/styles/widgets/")
@@ -78,7 +82,7 @@ module.exports = {
       },
       // Image loaders
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
         use: ["file-loader"]
       },
       // Font-loader

@@ -20,9 +20,12 @@
   },
   "homepage": "https://github.com/rahulrana95/personal_dashboard#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
     "antd": "^3.11.2",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
     "path": "^0.12.7",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.28.0"
