@@ -30,13 +30,17 @@ export default class Layout extends React.Component {
             <Menu.Item key="1">
               <Icon type="pie-chart" />
               <span>
-                <Link to="/home">{MENU.HOME}</Link>
+                <Link to="/" className="react-link">
+                  {MENU.HOME}
+                </Link>
               </span>
             </Menu.Item>
             <Menu.Item key="2">
               <Icon type="desktop" />
               <span>
-                <Link to="/settings">{MENU.SETTINGS}</Link>
+                <Link to="/settings" className="react-link">
+                  {MENU.SETTINGS}
+                </Link>
               </span>
             </Menu.Item>
             <SubMenu
@@ -48,7 +52,14 @@ export default class Layout extends React.Component {
                 </span>
               }>
               <Menu.Item key="3">
-                <Link to="/features/weather">{MENU.FEATURES.WEATHER}</Link>
+                <Link to="/features/weather" className="react-link">
+                  {MENU.FEATURES.WEATHER}
+                </Link>
+              </Menu.Item>
+              <Menu.Item key="4">
+                <Link to="/features/resources" className="react-link">
+                  {MENU.FEATURES.RESOURCES}
+                </Link>
               </Menu.Item>
             </SubMenu>
           </Menu>
@@ -58,6 +69,7 @@ export default class Layout extends React.Component {
             {ROUTES.map((route, index) => {
               return (
                 <Route
+                  exact
                   key={index}
                   path={route.path}
                   component={route.component}
@@ -65,9 +77,7 @@ export default class Layout extends React.Component {
               );
             })}
           </Content>
-          <Footer style={{ textAlign: "center" }}>
-            Ant Design ©2018 Created by Ant UED
-          </Footer>
+          <Footer style={{ textAlign: "center" }}>asd</Footer>
         </LayoutWrapper>
       </LayoutWrapper>
     );

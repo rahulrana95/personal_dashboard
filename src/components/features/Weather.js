@@ -14,13 +14,16 @@ class Weather extends Component {
       <div>
         <div
           style={{
-            backgroundImage: `url(${cloudy})`
+            backgroundImage: `url(${cloudy})`,
+            width: "100%",
+            height: "600px",
+            color: "white"
           }}>
           <div>
-            <div>{this.state.city}</div>
-            <div>28&#8451;</div>
+            <div style={{ fontSize: "45px" }}>{this.state.city}</div>
+            <div style={{ fontSize: "100px" }}>28&#8451;</div>
           </div>
-          <div>27 september 2018</div>
+          <div style={{ fontSize: "40px" }}>27 september 2018</div>
         </div>
         <div style={{ display: "flex", overflowX: "auto" }}>
           {this._renderWeatherCards()}
@@ -40,7 +43,11 @@ class Weather extends Component {
           title={
             <div style={{ display: "flex", flexDirection: "column" }}>
               <span>{day.weather[0].description}</span>
-              <span>{day.dt}</span>
+              <span>
+                {new Date(day.dt_txt).toDateString()}
+                <br />
+                {new Date(day.dt_txt).toTimeString()}
+              </span>
             </div>
           }
           key={index}

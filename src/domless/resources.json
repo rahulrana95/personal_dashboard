@@ -1,0 +1,113 @@
+[
+  {
+    "href": "https://github.com/facebook/jscodeshift",
+    "title": "Facebook Code Repo: JSCodeShift",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "It contains the code written by facebook developers. You can learn a lot from this",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false,
+    "lastAdded": ""
+  },
+  {
+    "href": "https://github.com/facebook/fbjs",
+    "title": "Facebook Code Repo: Fbjs",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "A collection of utility libraries used by other Facebook JS projects.",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  },
+  {
+    "href": "https://github.com/facebook/immutable-js",
+    "title": "Immutable js",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "Immutable persistent data collections for Javascript which increase efficiency and simplicity. http://facebook.github.io/immutable-js/",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  },
+  {
+    "href": "https://github.com/facebook/react-360",
+    "title": "360 and VR using React",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "Create amazing 360 and VR content using React https://facebook.github.io/react-360 ",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  },
+  {
+    "href": "https://github.com/facebook/draft-js",
+    "title": "Facebook Code Repo: Draftjs for creating text editors",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "A React framework for building text editors. https://draftjs.org/ ",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  },
+  {
+    "href": "https://github.com/facebook/dataloader",
+    "title": "Facebook Code Repo: dataloader",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "DataLoader is a generic utility to be used as part of your application's data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  },
+  {
+    "href": "https://github.com/facebook/prepack",
+    "title": "Facebook Code Repo: prepack",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "A JavaScript bundle optimizer. http://prepack.io",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  },
+  {
+    "href": "https://github.com/facebook/facebook-nodejs-business-sdk",
+    "title": "Facebook Code Repo: facebook-nodejs-business-sdk",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "Facebook Ads API using Node.js    ",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  },
+  {
+    "href": "https://github.com/facebook/regenerator",
+    "title": "Facebook Code Repo: regenerator",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "Source transformer enabling ECMAScript 6 generator functions in JavaScript-of-today. http://facebook.github.io/regenerator/    ",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  },
+  {
+    "href": "https://github.com/facebook/rebound-js",
+    "title": "Facebook Code Repo: reboundjs",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "Spring dynamics in JavaScript.",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  },
+  {
+    "href": "https://github.com/facebook/emitter",
+    "title": "Facebook Code Repo: emitter",
+    "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    "description": "A JS EventEmitter foundation for evented code",
+    "categories": ["Code Repo", "Reading Code"],
+    "type": ["Codes"],
+    "tags": ["facebook", "developers", "githubcodebyfbdevs"],
+    "isAlreadyReaded": false
+  }
+]
