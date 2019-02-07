@@ -11,13 +11,9 @@ var path = require("path");
 
 const devConfig = {
   mode: "development",
-  devtool: "inline-source-map"
+  devtool: "inline-source-map",
+  plugins: []
 };
-
-if (process.env.NODE_ENV === "production") {
-  devConfig.mode = "production";
-  devConfig.devtool = ""; //"source-map";
-}
 
 const prodPlugins = [
   new CleanWebpackPlugin(["dist"]),
@@ -34,9 +30,17 @@ const prodPlugins = [
   })
 ];
 
+if (process.env.NODE_ENV === "production" || true) {
+  devConfig.mode = "production";
+  devConfig.devtool = ""; //"source-map";
+  devConfig.plugins = prodPlugins;
+}
+console.log(process.env);
+
 module.exports = {
   entry: ["@babel/polyfill", "./src/index.js"],
-  ...devConfig,
+  mode: devConfig.mode,
+  devtool: devConfig.devtool,
   optimization: {
     usedExports: true,
     splitChunks: {
@@ -109,7 +113,8 @@ module.exports = {
       template: "./src/index.html",
       filename: "index.html",
       title: "Output Management"
-    })
+    }),
+    ...devConfig.plugins
 
     // new BundleAnalyzerPlugin()
   ]

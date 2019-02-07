@@ -6,16 +6,11 @@
     "js": "/vendors.bundle.js"
   },
   "": {
+    "jpeg": "/fac4ce5742d9a19b3a4657d47a75ea73.jpeg",
     "html": "/index.html",
     "br": [
       "/main.bundle.js.br",
-      "/main.fb87469d16434a7f6775.hot-update.js.br",
-      "/vendors.bundle.js.br",
-      "/vendors.fb87469d16434a7f6775.hot-update.js.br"
-    ],
-    "json": [
-      "/ae94eee0db903dd33b19.hot-update.json",
-      "/fb87469d16434a7f6775.hot-update.json"
+      "/vendors.bundle.js.br"
     ]
   }
 }
