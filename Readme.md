@@ -9,3 +9,4 @@ Pesonal Dashboard
   - Add logic for last seen or last clicked something like this
   - Add node api to add dta in resources.json file
   - Add read or un read and fav filter in it
+  - Add travesci
