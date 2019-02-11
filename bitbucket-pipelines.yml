@@ -7,7 +7,8 @@ image: node:11.6.0
 
 pipelines:
   pull-requests:
-    - step:
-        script:
-          - npm install
-          - echo "You have passed all tests!. You can proceed to deployment."
+    default:
+      - step:
+          script:
+            - npm install
+            - echo "You have passed all tests!. You can proceed to deployment."
