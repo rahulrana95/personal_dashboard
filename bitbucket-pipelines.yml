@@ -6,7 +6,7 @@
 image: node:11.6.0
 
 pipelines:
-  default:
+  pull-requests:
     - step:
         script:
           - npm install
