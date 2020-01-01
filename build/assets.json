@@ -6,11 +6,7 @@
     "js": "/vendors.bundle.js"
   },
   "": {
-    "jpeg": "/fac4ce5742d9a19b3a4657d47a75ea73.jpeg",
     "html": "/index.html",
-    "br": [
-      "/main.bundle.js.br",
-      "/vendors.bundle.js.br"
-    ]
+    "br": "/vendors.bundle.js.br"
   }
 }

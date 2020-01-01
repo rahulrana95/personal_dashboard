@@ -1,8 +1,8 @@
 export const config = {
-  weather: {
+  WEATHER: {
     baseUrl: "https://api.openweathermap.org"
   },
-  defaults: {
-    city: "gurgaon  "
+  DEFAULTS: {
+    city: "gurgaon"
   }
 };

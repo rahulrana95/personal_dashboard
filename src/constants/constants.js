@@ -1,30 +1,26 @@
-import Layout from "components/Layout";
-import Weather from "components/features/Weather";
-import Home from "components/Home";
 import React from "react";
-import Resources from "../containers/features/Resources";
+import Layout from "components/Layout";
+import WeightLoss from "containers/features/WeightLoss";
 
 export const MENU = {
   HOME: "Home",
   SETTINGS: "Settings",
   PROFILE: "Profile",
   FEATURES: {
-    WEATHER: "Weather",
-    RESOURCES: "Resources"
+    WEATHER: {
+      name: "Weight Loss",
+      icon: ''
+    }
   }
 };
 
 export const ROUTES = [
   {
     path: "/",
-    component: Home
+    component: WeightLoss
   },
   {
-    path: "/features/weather",
-    component: Weather
+    path: "/features/weightLoss",
+    component: WeightLoss
   },
-  {
-    path: "/features/resources",
-    component: Resources
-  }
 ];
