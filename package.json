@@ -30,6 +30,7 @@
     "node-sass": "^4.13.0",
     "path": "^0.12.7",
     "react-sidebar": "^3.0.2",
+    "recharts": "^2.0.0-beta.1",
     "sass-loader": "^7.1.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.28.0"

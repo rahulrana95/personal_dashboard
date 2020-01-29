@@ -7,7 +7,8 @@ import Sidebar from "./Sidebar";
 
 export default class Layout extends React.Component {
   state = {
-    collapsed: false
+    collapsed: false,
+    isLoggedin: false,
   };
 
   onCollapse = collapsed => {

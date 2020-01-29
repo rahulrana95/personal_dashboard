@@ -7,6 +7,15 @@
   },
   "": {
     "html": "/index.html",
-    "br": "/vendors.bundle.js.br"
+    "br": [
+      "/main.bundle.js.br",
+      "/vendors.bundle.js.br",
+      "/vendors.bundle.js.br",
+      "/vendors.e02b7849efd5991b4608.hot-update.js.br"
+    ],
+    "json": [
+      "/51ad4f0d05744bdbf1ef.hot-update.json",
+      "/8e453ecdfad36d1977b5.hot-update.json"
+    ]
   }
 }
